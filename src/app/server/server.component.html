@@ -1,0 +1,5 @@
+<h4>Two way Binding imput</h4>
+<input type="text" class="form-control" [(ngModel)]="username">
+<h4>String Interpolation output</h4>
+<p>the user name is: {{username}}</p>
+<button class="btn btn-principal" [disabled]="!username" (click)="ngEmtyUsername()">Click me</button>
